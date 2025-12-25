@@ -11,6 +11,7 @@
     "DalamudApiLevel": 11,
     "DownloadLinkInstall": "https://github.com/notYuta/mobhuntoverlay/releases/latest/download/MobHuntOverlay.zip",
     "DownloadLinkUpdate": "https://github.com/notYuta/mobhuntoverlay/releases/latest/download/MobHuntOverlay.zip",
+    "IsHide": false,
     "IconUrl": ""
   }
 ]
