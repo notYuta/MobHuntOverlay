@@ -1,0 +1,13 @@
+{
+  "Author": "Your Name",
+  "Name": "MobHuntOverlay",
+  "Punchline": "B-rank mob location overlay for hunt bills",
+  "Description": "Display B-rank mob spawn locations on the game map when opening the map with M key.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "hunt",
+    "mob",
+    "map",
+    "overlay"
+  ]
+}

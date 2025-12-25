@@ -1,0 +1,36 @@
+{
+  "Version": "1.0.0",
+  "Data": [
+    {
+      "TerritoryTypeId": 135,
+      "InternalName": "Central La Noscea",
+      "Mobs": [
+        {
+          "BNpcNameId": 2938,
+          "MobName": "スカイグロウ",
+          "Rank": "B",
+          "Locations": [
+            { "X": 0.0, "Y": 0.0, "Z": 0.0 },
+            { "X": 0.0, "Y": 0.0, "Z": 0.0 },
+            { "X": 0.0, "Y": 0.0, "Z": 0.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "TerritoryTypeId": 956,
+      "InternalName": "Labyrinthos",
+      "Mobs": [
+        {
+          "BNpcNameId": 10615,
+          "MobName": "グラスカッター",
+          "Rank": "B",
+          "Locations": [
+            { "X": 0.0, "Y": 0.0, "Z": 0.0 },
+            { "X": 0.0, "Y": 0.0, "Z": 0.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}
