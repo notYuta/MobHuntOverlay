@@ -1,43 +1,33 @@
 # MobHuntOverlay
 
-FF14のBランクモブ手配書の「生息場所」ボタンを押すと、マップ上にスポーン位置をマーカー表示するDalamudプラグインです。
+A Dalamud plugin that shows B-rank mob spawn locations on the map when opening from the hunt bill's "Habitat" button.
 
-## 機能
+## Features
 
-- 手配書の「生息場所」ボタンからマップを開くと、そのBモブのスポーン位置が自動表示
-- 全拡張対応（ARR, HW, SB, ShB, EW, DT）
-- 通常のマップ表示を妨げない（手配書経由のみ動作）
+- Automatically displays spawn locations when opening the map from hunt bill's "Habitat" button
+- Supports all expansions (ARR, HW, SB, ShB, EW, DT)
+- Does not interfere with normal map display (only activates via hunt bills)
 
-## インストール方法
+## Installation
 
-### 手動インストール
-
-1. [Releases](../../releases)から最新の`MobHuntOverlay.zip`をダウンロード
-2. 解凍した中身を以下のフォルダに配置：
+1. Open Dalamud Settings (`/xlsettings`)
+2. Go to "Experimental" tab and add this to "Custom Plugin Repositories":
    ```
-   %APPDATA%\XIVLauncher\installedPlugins\MobHuntOverlay\
+   https://raw.githubusercontent.com/notYuta/DalamudPluginRepo/main/repo.json
    ```
-3. FF14を再起動
+3. Save and restart the game
+4. Install "MobHuntOverlay" from the Plugin Installer
 
-### カスタムリポジトリ経由
+## Usage
 
-1. Dalamudの設定 → 試験的機能 → カスタムプラグインリポジトリ
-2. 以下のURLを追加：
-   ```
-   https://raw.githubusercontent.com/notYuta/mobhuntoverlay/main/repo.json
-   ```
-3. プラグイン一覧から「MobHuntOverlay」をインストール
+1. Open a B-rank hunt bill in-game
+2. Click the "Habitat" button
+3. Spawn locations will be displayed as markers on the map
 
-## 使い方
-
-1. ゲーム内で手配書（Bランク）を開く
-2. 「生息場所」ボタンをクリック
-3. マップ上にスポーン位置がマーカーで表示される
-
-## ライセンス
+## License
 
 AGPL-3.0-or-later
 
-## クレジット
+## Credits
 
-- スポーンデータ: [ffxiv-huntmaps-maker](https://github.com/RKI027/ffxiv-huntmaps-maker)
+- Spawn data: [ffxiv-huntmaps-maker](https://github.com/RKI027/ffxiv-huntmaps-maker)
